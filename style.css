@@ -1,0 +1,80 @@
+/* Стиль для тіла */
+body {
+    background-color: #f5f5dc;
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+    color: #333333;
+    line-height: 1.6;
+    text-align: justify;
+  }
+  
+  /* Стиль для заголовків */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+    color: #2f2f2f;
+    line-height: 1.4;
+    text-align: center;
+  }
+  
+  /* Посилання */
+  a {
+    color: darkblue;
+    text-decoration: none;
+  }
+  a:visited {
+    color: brown;
+  }
+  a:active {
+    color: red;
+  }
+  
+  /* Списки */
+  ul, ol, dl {
+    margin: 20px;
+    padding-left: 40px;
+    font-size: 15px;
+  }
+  ul li, ol li, dl dt {
+    padding: 5px;
+  }
+  
+  /* Стиль таблиць */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+  }
+  th, td {
+    border: 1px solid #999;
+    padding: 10px;
+    text-align: center;
+  }
+  th {
+    background-color: #d0cfc4;
+    font-weight: bold;
+  }
+  caption {
+    caption-side: top;
+    font-size: 18px;
+    padding: 10px;
+    font-weight: bold;
+  }
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Внутрішній стиль через клас */
+  .custom-paragraph {
+    font-style: italic !important;
+    color: #444 !important;
+  }
+  
+  /* Навігаційне меню */
+  .navbar {
+    background-color: #f0e6d2;
+    padding: 10px;
+  }
+  .navbar a {
+    margin-right: 20px;
+  }
+  
