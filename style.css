@@ -78,3 +78,81 @@ body {
     margin-right: 20px;
   }
   
+  /* ===== ФОРМИ ===== */
+
+form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #fffaf0;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+fieldset {
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  padding: 15px;
+  background-color: #fdf6e3;
+}
+
+legend {
+  font-weight: bold;
+  color: #333;
+  padding: 0 10px;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+  width: 100%;
+  padding: 8px 10px;
+  margin-bottom: 12px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  font-size: 15px;
+  font-family: Verdana;
+  background-color: #fff;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border-color: #6666cc;
+  box-shadow: 0 0 5px #6666cc;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  margin-right: 8px;
+}
+
+input[type="submit"],
+input[type="reset"],
+button {
+  padding: 8px 20px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;
+  margin-right: 10px;
+  background-color: #4d88ff;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: #003d99;
+}
