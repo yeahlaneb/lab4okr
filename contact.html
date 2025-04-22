@@ -25,6 +25,51 @@
     <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
   </ul>
 
+  <h2>Форма зворотного зв'язку</h2>
+
+  <form action="#" method="post">
+    <fieldset>
+      <legend>Ваші дані</legend>
+      <label for="name">Ім’я:</label><br>
+      <input type="text" id="name" name="name" placeholder="Ваше ім’я" required><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" placeholder="example@mail.com" required><br><br>
+
+      <label for="message">Повідомлення:</label><br>
+      <textarea id="message" name="message" rows="4" cols="40" placeholder="Напишіть нам щось..." required></textarea>
+    </fieldset>
+
+    <fieldset>
+      <legend>Тип звернення</legend>
+      <input type="radio" id="feedback" name="type" value="feedback" checked>
+      <label for="feedback">Відгук</label><br>
+      <input type="radio" id="question" name="type" value="question">
+      <label for="question">Запитання</label><br>
+      <input type="radio" id="other" name="type" value="other">
+      <label for="other">Інше</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Параметри</legend>
+      <input type="checkbox" id="subscribe" name="subscribe" checked>
+      <label for="subscribe">Підписатися на новини</label><br>
+
+      <label for="topic">Тема:</label>
+      <select id="topic" name="topic">
+        <option value="shooting">Фотосесія</option>
+        <option value="editing">Обробка фото</option>
+        <option value="equipment">Обладнання</option>
+      </select>
+    </fieldset>
+
+    <br>
+    <input type="submit" value="Надіслати">
+    <input type="reset" value="Очистити">
+  </form>
+
+  <br>
+
   <h3>Мапа:</h3>
   <iframe src="https://maps.google.com/maps?q=Kyiv&t=&z=13&ie=UTF8&iwloc=&output=embed"
           width="100%" height="300" frameborder="0" scrolling="no">
